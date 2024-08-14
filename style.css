@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'inter';
+  src: url(font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: 'inter';
+}
+
+.container {
+  margin: 30px auto;
+  padding: 0 5px;
+}
+
+.wrapper {
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 9px 16px 0px rgba(120,115,115,0.75);
+  -webkit-box-shadow: 0px 9px 16px 0px rgba(120,115,115,0.75);
+  -moz-box-shadow: 0px 9px 16px 0px rgba(120,115,115,0.75);
+  overflow: hidden;
+}
+
+.wrapper .main-img {
+  width: 100%;
+}
+
+.wrapper .content {
+  padding: 16px;
+}
+
+.wrapper .title {
+  font-size: 2rem;
+}
+
+.wrapper .desc {
+  font-size: 18px;
+}
+
+.wrapper .icons {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .icons img {
+  cursor: pointer;
+}
